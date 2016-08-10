@@ -10,7 +10,7 @@ a = map(int,raw_input().strip().split(' '))
 
 # if the number of sticks available is 1, we need to cut into 3 parts
 if len(a) == 1:
-    print 3
+    print 2
 else:
 	# we search for a stick whose length is greater than or equal to
 	# the sum of the other sticks
