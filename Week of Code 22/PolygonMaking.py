@@ -9,7 +9,7 @@ n = int(raw_input().strip())
 a = map(int,raw_input().strip().split(' '))
 
 # if the number of sticks available is 1, we need to cut into 3 parts
-if len(a) == 1:
+if n == 1:
     print 2
 else:
 	# we search for a stick whose length is greater than or equal to
